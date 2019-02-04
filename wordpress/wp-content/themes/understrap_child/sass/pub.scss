@@ -1,0 +1,80 @@
+.pub {
+    right: 90px;
+    position: fixed;
+    float: left;
+    top: 252px;
+    display: block;
+    .sidebar_facebook{
+        background-color: #899dcf;
+        height: 2rem;
+        margin-top: 0.1rem;
+        display: flex;
+        font-family: serif;
+        &:hover{
+            background-color: #38508d;
+            text-decoration:none!important;
+        }
+    }
+    .sidebar_twitter{
+        background-color: #60d2f6;
+        height: 2rem;
+        margin-top: 0.1rem;
+        display: flex;
+        font-family: serif;
+        &:hover{
+            background-color: #387c91;
+            text-decoration:none!important;
+        }
+    }
+    .sidebar_instagram{
+        background-color: #709cbf;
+        height: 2rem;
+        margin-top: 0.1rem;
+        display: flex;
+        font-family: serif;
+        &:hover{
+            background-color: #415a6e;
+            text-decoration:none!important;
+        }
+    }
+    .img_pub{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+    .text_follow_pub{
+        color: white;
+        margin-left: 0.5rem;
+    
+    }
+    .like_sidebar1{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        margin-left: 7rem;
+    }
+    .like_sidebar2{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        margin-left: 4.5rem;
+    }
+    .like_sidebar3{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        margin-left: 4rem;
+    }
+    .lien_sidebar{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1170px) { 
+    .pub{
+        display:none;
+    }
+}

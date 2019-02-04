@@ -1,0 +1,155 @@
+.bodyshare {
+    // Début mathieu //
+    div {
+        div {
+            ul {
+                margin-top: 5%;
+                li.COMMENT {
+                    text-decoration: none;
+                    list-style-type: none;
+                    display: inline;
+                    background-color: black;
+                    a {
+                        font-weight: bold;
+                        padding: 10px 20px;
+                        height: 2vh;
+                        background: black;
+                        color: white;
+                        border: 1px solid black;
+                        border-top-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                        border-bottom-right-radius: 15px;
+                        i {
+                            width: 2vw;
+                            color: white;
+                            font-size: 20px;
+                        }
+                    }
+                }
+                li.FACE {
+                    text-decoration: none;
+                    list-style-type: none;
+                    display: inline;
+                    background-color: #3b5998;
+                    a {
+                        font-weight: bold;
+                        padding: 10px 20px;
+                        height: 2vh;
+                        background: #3b5998;
+                        color: white;
+                        border: 1px solid #3b5998;
+                        border-top-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                        border-bottom-right-radius: 15px;
+                        i {
+                            width: 2vw;
+                            color: white;
+                            font-size: 20px;
+                        }
+                    }
+                }
+                li.TWEET {
+                    text-decoration: none;
+                    list-style-type: none;
+                    display: inline;
+                    background-color: #00acee;
+                    a {
+                        font-weight: bold;
+                        padding: 10px 20px;
+                        height: 2vh;
+                        background: #00acee;
+                        color: white;
+                        border: 1px solid #00acee;
+                        border-top-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                        border-bottom-right-radius: 15px;
+                        i {
+                            width: 2vw;
+                            color: white;
+                            font-size: 20px;
+                        }
+                    }
+                }
+                li.PINIT {
+                    text-decoration: none;
+                    list-style-type: none;
+                    display: inline;
+                    background-color: #c8232c;
+                    a {
+                        font-weight: bold;
+                        padding: 10px 20px;
+                        height: 2vh;
+                        background: #c8232c;
+                        color: white;
+                        border: 1px solid #c8232c;
+                        border-top-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                        border-bottom-right-radius: 15px;
+                        i {
+                            width: 2vw;
+                            color: white;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+div{
+    div{
+        div{
+            span.previous2{
+                display: block;
+                margin-top: 2%;
+                color: rgba(128, 128, 128, 0.521);
+                span{
+                    margin-right: 10%;
+                }
+            }
+            
+            span.title{
+                color:black;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+div{
+    div{
+        div{
+            span.logofarmersdog{ 
+                display: block;
+                width: 100px;
+                height: 100px;
+                background-color: #FF8D6A;
+                border-radius: 50%;
+                transform:rotate(-20deg)!important;
+                padding: 15px;
+                color: white;
+                text-align: center;
+                font-weight: bold;
+                font-family: 'Crimson Text', serif;
+                font-size:13px;
+                margin-right: 10%;
+            }
+            span.title2{
+                font-weight: bold;
+                font-family: 'Open Sans', sans-serif;
+            }
+            span.text{
+                color:rgba(0, 0, 0, 0.267);
+            }
+        }
+    }
+}
+
+
+
+// FIN mathieu //

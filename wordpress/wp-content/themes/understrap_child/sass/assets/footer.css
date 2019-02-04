@@ -1,0 +1,18 @@
+footer .footernav {
+  color: white;
+  background-color: #333639;
+}
+footer .footernav ul li {
+  list-style-type: none;
+}
+footer .footernav ul a {
+  color: red;
+  margin-bottom: 50px;
+}
+footer .footernav ul img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=footer.css.map */

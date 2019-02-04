@@ -1,0 +1,82 @@
+body {
+    background:  white;
+    font-family: 'Open Sans', sans-serif;
+} 
+.jumbotron {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    background: white;
+}
+.headTitre {
+    display: flex;
+    justify-content: center;
+}
+a.headTitle {
+    text-decoration: none;
+    color: black;
+    font-family: 'Crimson Text', serif;
+}
+.navbar-brand {
+    font-size: 4rem;
+}
+.navup2 {
+    margin: auto;
+}
+a.nav-link {
+    color: black;
+    margin-top:10px;
+   
+    &:hover{
+        border-bottom: 2px solid black;
+        margin-top: 8px;
+    }
+}
+.wrapper {
+    background: white!important;
+}
+img.imageNav {
+    width : 15px;
+    height: 18px; 
+}
+
+.site {
+    display:flex;
+    justify-content: flex-end;
+    height: 2px;
+}
+.modal-dialog {
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    margin-top: 40%;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+.search {
+    border: solid 1px black;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+.recherche {
+    padding: 10px;
+}
+.research {
+    padding: 15px;
+}
+.loupe {
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+}
+
+@media screen and (max-width: 650px) {
+    ul.yo {
+      display:flex;
+      flex-direction: column!important;
+    }
+  }
